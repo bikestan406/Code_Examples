@@ -4,9 +4,7 @@
 
 #strategy: find max of each color for each line, multiply each color_max to each other, then add up all products
 
-colors = {' red' : 12,
- ' blue' : 14,
- ' green' : 13}
+colors = [' red', ' green', ' blue']
 
 
 def color_record(elements,color):
@@ -63,5 +61,3 @@ def main():
 #----
 if __name__ == "__main__":
 	main()
-
-colors = [' red', ' green', ' blue']
